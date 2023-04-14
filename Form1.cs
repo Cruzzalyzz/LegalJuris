@@ -72,8 +72,7 @@ namespace LegalJuris
 
             Contexto.ObjetoProcesso.Add(processo);
             Contexto.SaveChanges();
-
-            MessageBox.Show("Processo incluído com sucesso.", null, MessageBoxButtons.OK);
+            MessageBox.Show("Processo incluído com sucesso.", "Confirmação", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             comboCliente.SelectedItem = null;
             comboCaso.SelectedItem = null;
